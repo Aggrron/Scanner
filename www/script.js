@@ -13,7 +13,7 @@ function barcodescanner(){
 	},
 	{
 	showFlipCameraButton : true,
-	showTorchButton : false,
+	showTorchButton : true,
 	torchOn: false,
 	saveHistory: true,
 	prompt : "Place a barcode inside the scan area",
