@@ -1,5 +1,6 @@
 
 function barcodescanner(){
+	alert("Ok!");
 	cordova.plugins.barcodeScanner.scan(
 	function (result) {
 		alert("We got a barcode\n" +
